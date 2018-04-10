@@ -4,6 +4,20 @@
    <name>a_Continue</name>
    <tag></tag>
    <elementGuidId>1b370cb8-439b-47cf-bf04-b317520ff49d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;application&quot;)/div[@class=&quot;button-main show&quot;]/a[@class=&quot;button-main-content&quot;][count(. | //a[@class = 'button-main-content' and @href = '#/select-payment' and (text() = 'Continue' or . = 'Continue') and @ref_element = 'Object Repository/Page_Sample Store/iframe_popup_1523373948544']) = count(//a[@class = 'button-main-content' and @href = '#/select-payment' and (text() = 'Continue' or . = 'Continue') and @ref_element = 'Object Repository/Page_Sample Store/iframe_popup_1523373948544'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +28,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -35,7 +49,7 @@
       <value>Continue</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

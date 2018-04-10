@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_popup_1523373948544</name>
+   <name>iframe_popup_1523374952886</name>
    <tag></tag>
-   <elementGuidId>13d725af-2963-4ffc-949a-46deca08d72d</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;snap-midtrans&quot;)[count(. | //iframe[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&amp;digest=5d656c13853c162406883e3766beecf7e23aaedd5a930e802a12f0ae7e1778b1&amp;client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1523373948544']) = count(//iframe[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&amp;digest=5d656c13853c162406883e3766beecf7e23aaedd5a930e802a12f0ae7e1778b1&amp;client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1523373948544'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>9013321c-fde3-4811-9a9e-2cc66598a0e6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -38,10 +32,10 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>popup_1523373948544</value>
+      <value>popup_1523374952886</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Pay Now</name>
+   <name>a_Continue</name>
    <tag></tag>
-   <elementGuidId>d0f68a85-f519-430c-81da-e7ae9617e83b</elementGuidId>
+   <elementGuidId>e434cc5c-71d9-41a2-821f-8fc539bf542a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;application&quot;)/div[@class=&quot;button-main show&quot;]/a[@class=&quot;button-main-content&quot;][count(. | //a[@class = 'button-main-content' and @href = '#/' and (text() = 'Pay Now' or . = 'Pay Now') and @ref_element = 'Object Repository/Page_Sample Store/iframe_popup_1523373948544']) = count(//a[@class = 'button-main-content' and @href = '#/' and (text() = 'Pay Now' or . = 'Pay Now') and @ref_element = 'Object Repository/Page_Sample Store/iframe_popup_1523373948544'])]</value>
+         <value>//a[@href = '#/select-payment' and (text() = 'Continue' or . = 'Continue') and @ref_element = 'Object Repository/Page_Sample Store (1)/iframe_popup_1523374952886']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,17 +35,17 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#/</value>
+      <value>#/select-payment</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pay Now</value>
+      <value>Continue</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -52,6 +56,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Sample Store/iframe_popup_1523373948544</value>
+      <value>Object Repository/Page_Sample Store (1)/iframe_popup_1523374952886</value>
    </webElementProperties>
 </WebElementEntity>
