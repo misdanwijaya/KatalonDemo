@@ -18,4 +18,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demo.midtrans.com/')
+
+WebUI.click(findTestObject('Page_Sample Store/a_BUY NOW'))
+
+WebUI.click(findTestObject('Page_Sample Store/div_CHECKOUT'))
+
+WebUI.click(findTestObject('Page_Sample Store/a_Continue'))
+
+WebUI.click(findTestObject('Page_Sample Store/div_Credit Card'))
+
+WebUI.setText(findTestObject('Page_Sample Store/input_cardnumber'), '4811111111111114')
+
+WebUI.setText(findTestObject('Page_Sample Store/input'), '01/23')
+
+WebUI.setText(findTestObject('Page_Sample Store/input_1'), '123')
+
+WebUI.click(findTestObject('Page_Sample Store/a_Pay Now'))
+
+WebUI.setText(findTestObject('Page_Sample Store/input_PaRes'), '112233')
+
+WebUI.click(findTestObject('Page_Sample Store/button_OK'))
+
+WebUI.closeBrowser()
 
